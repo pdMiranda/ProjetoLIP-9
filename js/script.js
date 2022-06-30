@@ -6,6 +6,7 @@
     });
   });
 
+
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     //console.log(scroll);
@@ -25,6 +26,10 @@
         filterizd = $('.filtr-container').filterizr({});
       }
     }, 500);
+
+
+
+
 
   var scroll = new SmoothScroll('a[href*="#"]');
 
